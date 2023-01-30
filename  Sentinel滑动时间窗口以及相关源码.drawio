@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T09:35:47.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="io2ZBiXrHVmb5pv0CZ4C" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T09:46:37.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VwNxGf24g0twsg38Ww6-" version="20.8.10" type="github">
   <diagram name="第 1 页" id="XqW-wUcpLsz2FuGxT0Mv">
-    <mxGraphModel dx="2848" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3246" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -346,10 +346,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oH3m3E_vox9M-4LETuuR-74" value="canPassCheck()&lt;br&gt;&lt;div&gt;&amp;nbsp; if (rule.isClusterMode()) {//处理集群模式的流控&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return passClusterCheck(rule, context, node, acquireCount, prioritized);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;//处理单机模式的流控&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return passLocalCheck()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="3170" width="360" height="170" as="geometry" />
+          <mxGeometry x="1020" y="3170" width="360" height="170" as="geometry" />
         </mxCell>
         <mxCell id="oH3m3E_vox9M-4LETuuR-76" value="com.alibaba.csp.sentinel.slots.block.flow.FlowRuleChecker#passLocalCheck&lt;br&gt;selectedNode= selectNodeByRequesterAndStrategy(rule, context, node);//根据请求来选择出Node&lt;br&gt;&lt;br&gt;比如是DefaultNode&amp;nbsp;&lt;br&gt;那就根据配置的流控规则(直接拒绝、排队等待、预热)&lt;br&gt;选择不同的Controller 判断是否通过&lt;br&gt;rule.getRater().canPass(selectedNode, acquireCount, prioritized);" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="3390" width="510" height="170" as="geometry" />
+          <mxGeometry x="945" y="3380" width="510" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
