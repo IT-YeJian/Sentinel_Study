@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T14:19:52.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nfp_W4x7lJhbFrjw7KhI" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T08:18:48.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="INcd_hQRD30rQU_Bm2KB" version="20.8.10" type="github">
   <diagram name="第 1 页" id="XqW-wUcpLsz2FuGxT0Mv">
     <mxGraphModel dx="2848" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -306,8 +306,38 @@
         <mxCell id="oH3m3E_vox9M-4LETuuR-56" value="NodeSelectorSlot&lt;br&gt;处理不同context下相同resource名的统计信息&lt;br&gt;&lt;br&gt;使用上下文名称而不是资源名称作为映射键。&lt;br&gt;Map&amp;lt;String, DefaultNode&amp;gt; map = new HashMap&amp;lt;String, DefaultNode&amp;gt;(10);&lt;br&gt;&lt;br&gt;node = new DefaultNode(resourceWrapper, null);" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="-290" y="2270" width="300" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-58" target="oH3m3E_vox9M-4LETuuR-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oH3m3E_vox9M-4LETuuR-58" value="ClusterBuilderSlot&lt;br&gt;处理相同resource名的统计信息&lt;br&gt;不区分Context&lt;br&gt;Map&amp;lt;ResourceWrapper, ClusterNode&amp;gt; clusterNodeMap = new HashMap&amp;lt;&amp;gt;();&lt;br&gt;&lt;br&gt;clusterNode = new ClusterNode(resourceWrapper.getName(), resourceWrapper.getResourceType());&lt;br&gt;//让每个DefaultNode和ClusterNode关联起来 方便统计不同context中的总量情况&lt;br&gt;node.setClusterNode(clusterNode);" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="225" y="2250" width="280" height="260" as="geometry" />
+          <mxGeometry x="225" y="2250" width="315" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-60" target="oH3m3E_vox9M-4LETuuR-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-60" value="StatisticSlot最为重要的类 根据规则判断结果进行相应统计的类&lt;br&gt;在其内部会先走流控规则判断,若没有触发限流规则就证明请求没有问题会往下接着运行&lt;br&gt;AuthoritySlot-&amp;gt;SystemSlot-&amp;gt;FlowSlot-&amp;gt;DegradeSlot" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2250" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-62" target="oH3m3E_vox9M-4LETuuR-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-62" value="&lt;div&gt;&amp;nbsp; // Do some checking.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Request passed, add thread count and pass count.&lt;/div&gt;&lt;div&gt;//代码运行到这代表之前的slot都通过了 此时可以统计请求的相应数据了&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.increaseThreadNum();//线程+1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.addPassRequest(count);//请求数+1 这里会有滑动窗口&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="2310" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-67" target="oH3m3E_vox9M-4LETuuR-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-67" value="fireEntry()" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-69" target="oH3m3E_vox9M-4LETuuR-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-69" value="FlowSlot&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void entry()&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;//检测并应用流量规则&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; checkFlow(resourceWrapper, context, node, count, prioritized);&lt;/div&gt;&lt;div&gt;//触发下一个slot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2580" width="620" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-71" value="FlowRuleChecker#checkFlow()" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2790" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
