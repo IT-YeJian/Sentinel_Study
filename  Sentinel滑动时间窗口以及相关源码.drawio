@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T09:46:37.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VwNxGf24g0twsg38Ww6-" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T07:39:12.326Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xynVZEs3bhyC1JHED157" version="20.8.10" type="github">
   <diagram name="第 1 页" id="XqW-wUcpLsz2FuGxT0Mv">
-    <mxGraphModel dx="3246" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3360" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -333,6 +333,9 @@
         <mxCell id="oH3m3E_vox9M-4LETuuR-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-69" target="oH3m3E_vox9M-4LETuuR-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-69" target="oH3m3E_vox9M-4LETuuR-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oH3m3E_vox9M-4LETuuR-69" value="FlowSlot&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void entry()&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;//检测并应用流量规则&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; checkFlow(resourceWrapper, context, node, count, prioritized);&lt;/div&gt;&lt;div&gt;//触发下一个slot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="2580" width="620" height="160" as="geometry" />
         </mxCell>
@@ -350,6 +353,21 @@
         </mxCell>
         <mxCell id="oH3m3E_vox9M-4LETuuR-76" value="com.alibaba.csp.sentinel.slots.block.flow.FlowRuleChecker#passLocalCheck&lt;br&gt;selectedNode= selectNodeByRequesterAndStrategy(rule, context, node);//根据请求来选择出Node&lt;br&gt;&lt;br&gt;比如是DefaultNode&amp;nbsp;&lt;br&gt;那就根据配置的流控规则(直接拒绝、排队等待、预热)&lt;br&gt;选择不同的Controller 判断是否通过&lt;br&gt;rule.getRater().canPass(selectedNode, acquireCount, prioritized);" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="945" y="3380" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-78" target="oH3m3E_vox9M-4LETuuR-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-78" value="DegradeSlot 熔断降级Slot&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void entry()&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//检测并应用流控规则&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; performChecking(context, resourceWrapper);&lt;/div&gt;&lt;div&gt;//触发下一个slot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="2570" width="586" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-80" target="oH3m3E_vox9M-4LETuuR-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-80" value="//根据资源名称获取所有的断路器&lt;br&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;List&amp;lt;CircuitBreaker&amp;gt; circuitBreakers = DegradeRuleManager.getCircuitBreakers(r.getName());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (circuitBreakers == null || circuitBreakers.isEmpty()) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (CircuitBreaker cb : circuitBreakers) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!cb.tryPass(context)) {//判断熔断器是否是开启状态 如果开启状态则抛出异常&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new DegradeException(cb.getRule().getLimitApp(), cb.getRule());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1707" y="2813" width="480" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oH3m3E_vox9M-4LETuuR-82" value="判断熔断器是否开启在exit方法中com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot#exit" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1712" y="3110" width="468" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
