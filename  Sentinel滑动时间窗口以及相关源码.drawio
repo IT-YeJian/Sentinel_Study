@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T08:57:54.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WUhJ7zxkYwstcc0Aqag1" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T02:43:50.209Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lVIHx8FdQTfOF317fpG9" version="24.4.3" type="github">
   <diagram name="第 1 页" id="XqW-wUcpLsz2FuGxT0Mv">
-    <mxGraphModel dx="2848" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2609" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oH3m3E_vox9M-4LETuuR-118" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-118" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3100" y="1560" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-116" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-116" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2975" y="1560" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-114" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-114" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2860" y="1560" width="115" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-112" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-112" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2780" y="1560" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M81DNkB3qxJkV-e7loRs-1" value="固定时间窗口的算法会有区间统计不均匀的算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -127,15 +127,6 @@
         <mxCell id="M81DNkB3qxJkV-e7loRs-27" value="20" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M81DNkB3qxJkV-e7loRs-28" value="80" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="170" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M81DNkB3qxJkV-e7loRs-29" value="30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="180" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M81DNkB3qxJkV-e7loRs-30" value="70" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="180" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="M81DNkB3qxJkV-e7loRs-35" value="0t" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="240" width="60" height="30" as="geometry" />
         </mxCell>
@@ -151,294 +142,294 @@
         <mxCell id="M81DNkB3qxJkV-e7loRs-39" value="&lt;u&gt;这个区间已经超过100了，这是固定时间窗口的问题&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="60" y="310" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-1" target="oH3m3E_vox9M-4LETuuR-2">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oH3m3E_vox9M-4LETuuR-1" target="oH3m3E_vox9M-4LETuuR-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-1" value="启动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-1" value="启动" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-170" y="470" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-2" target="oH3m3E_vox9M-4LETuuR-4">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oH3m3E_vox9M-4LETuuR-2" target="oH3m3E_vox9M-4LETuuR-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-2" value="spring.factories里的SentinelAutoConfiguration" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-2" value="spring.factories里的SentinelAutoConfiguration" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-270" y="547" width="260" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-4" target="oH3m3E_vox9M-4LETuuR-6">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oH3m3E_vox9M-4LETuuR-4" target="oH3m3E_vox9M-4LETuuR-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-4" value="注入SentinelResourceAspect" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-4" value="注入SentinelResourceAspect" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="650" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-6" target="oH3m3E_vox9M-4LETuuR-8">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oH3m3E_vox9M-4LETuuR-6" target="oH3m3E_vox9M-4LETuuR-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-6" value="@Pointcut(&quot;@annotation(com.alibaba.csp.sentinel.annotation.SentinelResource)&quot;)&lt;br&gt;@Around(&quot;sentinelResourceAnnotationPointcut()&quot;) 通过环绕通知做增强的" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-6" value="@Pointcut(&quot;@annotation(com.alibaba.csp.sentinel.annotation.SentinelResource)&quot;)&lt;br&gt;@Around(&quot;sentinelResourceAnnotationPointcut()&quot;) 通过环绕通知做增强的" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-390" y="710" width="500" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-8" target="oH3m3E_vox9M-4LETuuR-12">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oH3m3E_vox9M-4LETuuR-8" target="oH3m3E_vox9M-4LETuuR-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-8" value="invokeResourceWithSentinel(ProceedingJoinPoint pjp)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-8" value="invokeResourceWithSentinel(ProceedingJoinPoint pjp)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="800" width="400" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-12" target="oH3m3E_vox9M-4LETuuR-14">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-12" target="oH3m3E_vox9M-4LETuuR-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-12" value="&lt;font color=&quot;#ff0000&quot;&gt;1.获取资源名称ooxx @SentinelResource(value=&quot;ooxx&quot;)&lt;br&gt;&lt;br&gt;2.entry = SphU.entry(resourceName, resourceType, entryType, pjp.getArgs());//创建资源操作对象&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Object result = pjp.proceed();// 调用原方法&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-12" value="&lt;font color=&quot;#ff0000&quot;&gt;1.获取资源名称ooxx @SentinelResource(value=&quot;ooxx&quot;)&lt;br&gt;&lt;br&gt;2.entry = SphU.entry(resourceName, resourceType, entryType, pjp.getArgs());//创建资源操作对象&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Object result = pjp.proceed();// 调用原方法&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-470" y="902.5" width="660" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-14" target="oH3m3E_vox9M-4LETuuR-16">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-14" target="oH3m3E_vox9M-4LETuuR-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-14" value="&lt;font color=&quot;#ff0000&quot;&gt;Env.sph.entryWithType(name, resourceType, trafficType, 1, args);//限流方法&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-14" value="&lt;font color=&quot;#ff0000&quot;&gt;Env.sph.entryWithType(name, resourceType, trafficType, 1, args);//限流方法&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-390" y="1000" width="500" height="31.25" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-16" target="oH3m3E_vox9M-4LETuuR-18">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-16" target="oH3m3E_vox9M-4LETuuR-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-16" value="entryWithType(String name, int resourceType, EntryType entryType, int count, boolean prioritized,&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Object[] args)&lt;/div&gt;&lt;div&gt;//将资源名称和信息封装成资源对象&lt;br&gt;&lt;div&gt;StringResourceWrapper resource = new StringResourceWrapper(name, entryType, resourceType);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return entryWithPriority(resource, count, prioritized, args);&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-16" value="entryWithType(String name, int resourceType, EntryType entryType, int count, boolean prioritized,&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Object[] args)&lt;/div&gt;&lt;div&gt;//将资源名称和信息封装成资源对象&lt;br&gt;&lt;div&gt;StringResourceWrapper resource = new StringResourceWrapper(name, entryType, resourceType);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return entryWithPriority(resource, count, prioritized, args);&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-400" y="1070" width="520" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-18" target="oH3m3E_vox9M-4LETuuR-21">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-18" target="oH3m3E_vox9M-4LETuuR-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-18" value="从当前请求中获取Context,&lt;br&gt;一个请求会占用一个线程 且绑定一个Context&lt;br&gt;Context context = ContextUtil.getContext();" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-18" value="从当前请求中获取Context,&lt;br&gt;一个请求会占用一个线程 且绑定一个Context&lt;br&gt;Context context = ContextUtil.getContext();" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-335" y="1240" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-21" target="oH3m3E_vox9M-4LETuuR-23">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-21" target="oH3m3E_vox9M-4LETuuR-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="oH3m3E_vox9M-4LETuuR-24">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="oH3m3E_vox9M-4LETuuR-24" vertex="1" connectable="0">
           <mxGeometry x="-0.2133" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-21" target="oH3m3E_vox9M-4LETuuR-26">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-21" target="oH3m3E_vox9M-4LETuuR-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="oH3m3E_vox9M-4LETuuR-27">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="oH3m3E_vox9M-4LETuuR-27" vertex="1" connectable="0">
           <mxGeometry x="0.1333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-21" value="判断是否NullContext类型?&lt;br&gt;若context数量超过2000就不做规则检查了" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-21" value="判断是否NullContext类型?&lt;br&gt;若context数量超过2000就不做规则检查了" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-280" y="1360" width="280" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-23" value="END" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-23" value="END" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="130" y="1405" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-26" target="oH3m3E_vox9M-4LETuuR-32">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-26" target="oH3m3E_vox9M-4LETuuR-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-26" value="判断是否为null?如果为null就使用默认的创建好的名字为sentinel_default_context的Context并且放到当前线程中" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-26" value="判断是否为null?如果为null就使用默认的创建好的名字为sentinel_default_context的Context并且放到当前线程中" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-240" y="1550" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-29" value="ContextUtil#类的静态方法里就已经初始化好了root节点名称sentinel_default_context的Context&lt;br&gt;&lt;div&gt;static void initDefaultContext() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String defaultContextName = Constants.CONTEXT_DEFAULT_NAME;//sentinel_default_context&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; EntranceNode node = new EntranceNode(new StringResourceWrapper(defaultContextName, EntryType.IN), null);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Constants.ROOT.addChild(node);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; contextNameNodeMap.put(defaultContextName, node);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-29" value="ContextUtil#类的静态方法里就已经初始化好了root节点名称sentinel_default_context的Context&lt;br&gt;&lt;div&gt;static void initDefaultContext() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String defaultContextName = Constants.CONTEXT_DEFAULT_NAME;//sentinel_default_context&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; EntranceNode node = new EntranceNode(new StringResourceWrapper(defaultContextName, EntryType.IN), null);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Constants.ROOT.addChild(node);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; contextNameNodeMap.put(defaultContextName, node);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="160" y="1190" width="570" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-32" target="oH3m3E_vox9M-4LETuuR-23">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-32" target="oH3m3E_vox9M-4LETuuR-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-35" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="oH3m3E_vox9M-4LETuuR-34">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-35" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="oH3m3E_vox9M-4LETuuR-34" vertex="1" connectable="0">
           <mxGeometry x="-0.5347" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-32" target="oH3m3E_vox9M-4LETuuR-36">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-32" target="oH3m3E_vox9M-4LETuuR-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="oH3m3E_vox9M-4LETuuR-37">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="oH3m3E_vox9M-4LETuuR-37" vertex="1" connectable="0">
           <mxGeometry x="-0.2211" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-32" value="判断规则开关是否开启" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-32" value="判断规则开关是否开启" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-210" y="1680" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-36" target="oH3m3E_vox9M-4LETuuR-40">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-36" target="oH3m3E_vox9M-4LETuuR-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-36" target="oH3m3E_vox9M-4LETuuR-47">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-36" target="oH3m3E_vox9M-4LETuuR-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-36" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;责任链模式(解耦 限流 熔断降级 热点参数等等 又通过链式编程将他们串在一起)开启 是核心所在 该链是单向链&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;ProcessorSlot&amp;lt;Object&amp;gt; chain = lookProcessChain(resourceWrapper);&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;align=center;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-36" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;责任链模式(解耦 限流 熔断降级 热点参数等等 又通过链式编程将他们串在一起)开启 是核心所在 该链是单向链&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;ProcessorSlot&amp;lt;Object&amp;gt; chain = lookProcessChain(resourceWrapper);&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;align=center;" parent="1" vertex="1">
           <mxGeometry x="-355" y="1820" width="430" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-39" target="oH3m3E_vox9M-4LETuuR-56">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-39" target="oH3m3E_vox9M-4LETuuR-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-39" value="&lt;div&gt;//创建Entry对象保存&lt;/div&gt;当前调用信息&lt;div&gt;Entry e = new CtEntry(resourceWrapper, chain, context);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //针对资源进行操作&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; chain.entry(context, resourceWrapper, null, count, prioritized, args);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-39" value="&lt;div&gt;//创建Entry对象保存&lt;/div&gt;当前调用信息&lt;div&gt;Entry e = new CtEntry(resourceWrapper, chain, context);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //针对资源进行操作&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; chain.entry(context, resourceWrapper, null, count, prioritized, args);&lt;/div&gt;&lt;div&gt;类似于&lt;span style=&quot;background-color: initial;&quot;&gt;map&amp;lt;resource,chain&amp;gt; 一个资源对应一个调用链&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-385" y="2080" width="490" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-40">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="1710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-42" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="oH3m3E_vox9M-4LETuuR-41">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-42" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="oH3m3E_vox9M-4LETuuR-41" vertex="1" connectable="0">
           <mxGeometry x="-0.6333" y="-3" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-40" target="oH3m3E_vox9M-4LETuuR-39">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-40" target="oH3m3E_vox9M-4LETuuR-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-46" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="oH3m3E_vox9M-4LETuuR-43">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-46" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="oH3m3E_vox9M-4LETuuR-43" vertex="1" connectable="0">
           <mxGeometry x="-0.54" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-40" value="chain==null?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-40" value="chain==null?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-180" y="1950" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-47" target="oH3m3E_vox9M-4LETuuR-50">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-47" target="oH3m3E_vox9M-4LETuuR-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-47" value="lookProcessChain(resourceWrapper)" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-47" value="lookProcessChain(resourceWrapper)" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-800" y="1840" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-50" target="oH3m3E_vox9M-4LETuuR-52">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-50" target="oH3m3E_vox9M-4LETuuR-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-50" value="&lt;div&gt;将资源的操作对象和处理链绑定在一起&lt;/div&gt;&lt;div&gt;Map&amp;lt;ResourceWrapper, ProcessorSlotChain&amp;gt; chainMap&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = new HashMap&amp;lt;ResourceWrapper, ProcessorSlotChain&amp;gt;()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-50" value="&lt;div&gt;将资源的操作对象和处理链绑定在一起&lt;/div&gt;&lt;div&gt;Map&amp;lt;ResourceWrapper, ProcessorSlotChain&amp;gt; chainMap&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = new HashMap&amp;lt;ResourceWrapper, ProcessorSlotChain&amp;gt;()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-810" y="1980" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-52" target="oH3m3E_vox9M-4LETuuR-54">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-52" target="oH3m3E_vox9M-4LETuuR-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-52" value="&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; 通过这个spi方式加载chain&lt;br&gt;&amp;nbsp;chain = SlotChainProvider.newSlotChain();&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-52" value="&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; 通过这个spi方式加载chain&lt;br&gt;&amp;nbsp;chain = SlotChainProvider.newSlotChain();&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-780" y="2110" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-54" value="读取META-INF/services/接口全限定配置文件里的接口实现类SpiLoader.of(SlotChainBuilder.class).loadFirstInstanceOrDefault();&lt;br&gt;构建com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder&lt;br&gt;通过DefaultSlotChainBuilder的build方法里的spi方式找到8个slot&lt;br&gt;&lt;br&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.logger.LogSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.statistic.StatisticSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.system.SystemSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.block.flow.FlowSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-54" value="读取META-INF/services/接口全限定配置文件里的接口实现类SpiLoader.of(SlotChainBuilder.class).loadFirstInstanceOrDefault();&lt;br&gt;构建com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder&lt;br&gt;通过DefaultSlotChainBuilder的build方法里的spi方式找到8个slot&lt;br&gt;&lt;br&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.logger.LogSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.statistic.StatisticSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.system.SystemSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.block.flow.FlowSlot&lt;/div&gt;&lt;div&gt;com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-890" y="2230" width="490" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-56" target="oH3m3E_vox9M-4LETuuR-58">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-56" target="oH3m3E_vox9M-4LETuuR-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-56" value="NodeSelectorSlot&lt;br&gt;处理不同context下相同resource名的统计信息&lt;br&gt;&lt;br&gt;使用上下文名称而不是资源名称作为映射键。&lt;br&gt;Map&amp;lt;String, DefaultNode&amp;gt; map = new HashMap&amp;lt;String, DefaultNode&amp;gt;(10);&lt;br&gt;&lt;br&gt;node = new DefaultNode(resourceWrapper, null);" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-56" value="NodeSelectorSlot&lt;br&gt;处理不同context下相同resource名的统计信息&lt;br&gt;&lt;br&gt;使用上下文名称而不是资源名称作为映射键。&lt;br&gt;Map&amp;lt;String, DefaultNode&amp;gt; map = new HashMap&amp;lt;String, DefaultNode&amp;gt;(10);&lt;br&gt;&lt;br&gt;node = new DefaultNode(resourceWrapper, null);" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-290" y="2270" width="300" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-58" target="oH3m3E_vox9M-4LETuuR-60">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-58" target="oH3m3E_vox9M-4LETuuR-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-58" value="ClusterBuilderSlot&lt;br&gt;处理相同resource名的统计信息&lt;br&gt;不区分Context&lt;br&gt;Map&amp;lt;ResourceWrapper, ClusterNode&amp;gt; clusterNodeMap = new HashMap&amp;lt;&amp;gt;();&lt;br&gt;&lt;br&gt;clusterNode = new ClusterNode(resourceWrapper.getName(), resourceWrapper.getResourceType());&lt;br&gt;//让每个DefaultNode和ClusterNode关联起来 方便统计不同context中的总量情况&lt;br&gt;node.setClusterNode(clusterNode);" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-58" value="ClusterBuilderSlot&lt;br&gt;处理相同resource名的统计信息&lt;br&gt;不区分Context&lt;br&gt;Map&amp;lt;ResourceWrapper, ClusterNode&amp;gt; clusterNodeMap = new HashMap&amp;lt;&amp;gt;();&lt;br&gt;&lt;br&gt;clusterNode = new ClusterNode(resourceWrapper.getName(), resourceWrapper.getResourceType());&lt;br&gt;//让每个DefaultNode和ClusterNode关联起来 方便统计不同context中的总量情况&lt;br&gt;node.setClusterNode(clusterNode);" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="225" y="2250" width="315" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-60" target="oH3m3E_vox9M-4LETuuR-62">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-60" target="oH3m3E_vox9M-4LETuuR-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-60" value="StatisticSlot最为重要的类 根据规则判断结果进行相应统计的类&lt;br&gt;在其内部会先走流控规则判断,若没有触发限流规则就证明请求没有问题会往下接着运行&lt;br&gt;AuthoritySlot-&amp;gt;SystemSlot-&amp;gt;FlowSlot-&amp;gt;DegradeSlot" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-60" value="StatisticSlot最为重要的类 根据规则判断结果进行相应统计的类&lt;br&gt;在其内部会先走流控规则判断,若没有触发限流规则就证明请求没有问题会往下接着运行&lt;br&gt;AuthoritySlot-&amp;gt;SystemSlot-&amp;gt;FlowSlot-&amp;gt;DegradeSlot" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="670" y="2250" width="300" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-62" target="oH3m3E_vox9M-4LETuuR-67">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-62" target="oH3m3E_vox9M-4LETuuR-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-62" target="oH3m3E_vox9M-4LETuuR-92">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-62" target="oH3m3E_vox9M-4LETuuR-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-62" value="&lt;div&gt;&amp;nbsp; // Do some checking.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Request passed, add thread count and pass count.&lt;/div&gt;&lt;div&gt;//代码运行到这代表之前的slot都通过了 此时可以统计请求的相应数据了&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.increaseThreadNum();//线程+1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.addPassRequest(count);//请求数+1 这里会有滑动窗口&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-62" value="&lt;div&gt;&amp;nbsp; // Do some checking.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Request passed, add thread count and pass count.&lt;/div&gt;&lt;div&gt;//代码运行到这代表之前的slot都通过了 此时可以统计请求的相应数据了&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.increaseThreadNum();//线程+1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.addPassRequest(count);//请求数+1 这里会有滑动窗口&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1020" y="2310" width="360" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-67" target="oH3m3E_vox9M-4LETuuR-69">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-67" target="oH3m3E_vox9M-4LETuuR-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-67" value="fireEntry()" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-67" value="fireEntry()" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1140" y="2490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-69" target="oH3m3E_vox9M-4LETuuR-71">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-69" target="oH3m3E_vox9M-4LETuuR-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-69" target="oH3m3E_vox9M-4LETuuR-78">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-69" target="oH3m3E_vox9M-4LETuuR-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-69" value="FlowSlot&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void entry()&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;//检测并应用流量规则&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; checkFlow(resourceWrapper, context, node, count, prioritized);&lt;/div&gt;&lt;div&gt;//触发下一个slot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-69" value="FlowSlot&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void entry()&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;//检测并应用流量规则&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; checkFlow(resourceWrapper, context, node, count, prioritized);&lt;/div&gt;&lt;div&gt;//触发下一个slot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="2580" width="620" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-71" target="oH3m3E_vox9M-4LETuuR-74">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-71" target="oH3m3E_vox9M-4LETuuR-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-71" value="FlowRuleChecker#checkFlow()&lt;br&gt;&lt;br&gt;1.获得对应资源的流控规则&lt;br&gt;&lt;br&gt;2.逐个遍历流控规则去应用 若无法通过则抛出异常 后续不再应用&lt;br&gt;&lt;div&gt;Collection&amp;lt;FlowRule&amp;gt; rules = ruleProvider.apply(resource.getName());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (rules != null) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (FlowRule rule : rules) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!canPassCheck(rule, context, node, count, prioritized)) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;//FlowException继承BlockException&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new FlowException(rule.getLimitApp(), rule);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//这里涉及到两个算法: 预热规则的令牌桶、排队等待里的漏斗算法&lt;/div&gt;&lt;div&gt;令牌: 以恒定的速度往桶里放令牌 要处理一次请求需要从桶里获取一个令牌 当令牌不足 则拒绝服务&lt;/div&gt;&lt;div&gt;漏斗: 请求先进入桶里 通内以固定速度出水 也就是处理请求 当桶里的请求满的时候 则会拒绝服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-71" value="FlowRuleChecker#checkFlow()&lt;br&gt;&lt;br&gt;1.获得对应资源的流控规则&lt;br&gt;&lt;br&gt;2.逐个遍历流控规则去应用 若无法通过则抛出异常 后续不再应用&lt;br&gt;&lt;div&gt;Collection&amp;lt;FlowRule&amp;gt; rules = ruleProvider.apply(resource.getName());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (rules != null) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (FlowRule rule : rules) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!canPassCheck(rule, context, node, count, prioritized)) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;//FlowException继承BlockException&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new FlowException(rule.getLimitApp(), rule);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//这里涉及到两个算法: 预热规则的令牌桶、排队等待里的漏斗算法&lt;/div&gt;&lt;div&gt;令牌: 以恒定的速度往桶里放令牌 要处理一次请求需要从桶里获取一个令牌 当令牌不足 则拒绝服务&lt;/div&gt;&lt;div&gt;漏斗: 请求先进入桶里 通内以固定速度出水 也就是处理请求 当桶里的请求满的时候 则会拒绝服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="970" y="2790" width="460" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-74" target="oH3m3E_vox9M-4LETuuR-76">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-74" target="oH3m3E_vox9M-4LETuuR-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-74" value="canPassCheck()&lt;br&gt;&lt;div&gt;&amp;nbsp; if (rule.isClusterMode()) {//处理集群模式的流控&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return passClusterCheck(rule, context, node, acquireCount, prioritized);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;//处理单机模式的流控&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return passLocalCheck()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-74" value="canPassCheck()&lt;br&gt;&lt;div&gt;&amp;nbsp; if (rule.isClusterMode()) {//处理集群模式的流控&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return passClusterCheck(rule, context, node, acquireCount, prioritized);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;//处理单机模式的流控&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return passLocalCheck()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="3170" width="360" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-76" value="com.alibaba.csp.sentinel.slots.block.flow.FlowRuleChecker#passLocalCheck&lt;br&gt;selectedNode= selectNodeByRequesterAndStrategy(rule, context, node);//根据请求来选择出Node&lt;br&gt;&lt;br&gt;比如是DefaultNode&amp;nbsp;&lt;br&gt;那就根据配置的流控规则(直接拒绝、排队等待、预热)&lt;br&gt;选择不同的Controller 判断是否通过&lt;br&gt;rule.getRater().canPass(selectedNode, acquireCount, prioritized);" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-76" value="com.alibaba.csp.sentinel.slots.block.flow.FlowRuleChecker#passLocalCheck&lt;br&gt;selectedNode= selectNodeByRequesterAndStrategy(rule, context, node);//根据请求来选择出Node&lt;br&gt;&lt;br&gt;比如是DefaultNode&amp;nbsp;&lt;br&gt;那就根据配置的流控规则(直接拒绝、排队等待、预热)&lt;br&gt;选择不同的Controller 判断是否通过&lt;br&gt;rule.getRater().canPass(selectedNode, acquireCount, prioritized);" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="945" y="3380" width="510" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-78" target="oH3m3E_vox9M-4LETuuR-80">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-78" target="oH3m3E_vox9M-4LETuuR-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-78" value="DegradeSlot 熔断降级Slot&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void entry()&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//检测并应用流控规则&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; performChecking(context, resourceWrapper);&lt;/div&gt;&lt;div&gt;//触发下一个slot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-78" value="DegradeSlot 熔断降级Slot&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void entry()&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//检测并应用流控规则&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; performChecking(context, resourceWrapper);&lt;/div&gt;&lt;div&gt;//触发下一个slot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fireEntry(context, resourceWrapper, node, count, prioritized, args);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1654" y="2570" width="586" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-80" target="oH3m3E_vox9M-4LETuuR-82">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-80" target="oH3m3E_vox9M-4LETuuR-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-80" value="//根据资源名称获取所有的断路器&lt;br&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;List&amp;lt;CircuitBreaker&amp;gt; circuitBreakers = DegradeRuleManager.getCircuitBreakers(r.getName());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (circuitBreakers == null || circuitBreakers.isEmpty()) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (CircuitBreaker cb : circuitBreakers) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!cb.tryPass(context)) {//判断熔断器是否是开启状态 如果开启状态则抛出异常&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new DegradeException(cb.getRule().getLimitApp(), cb.getRule());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-80" value="//根据资源名称获取所有的断路器&lt;br&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;List&amp;lt;CircuitBreaker&amp;gt; circuitBreakers = DegradeRuleManager.getCircuitBreakers(r.getName());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (circuitBreakers == null || circuitBreakers.isEmpty()) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (CircuitBreaker cb : circuitBreakers) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!cb.tryPass(context)) {//判断熔断器是否是开启状态 如果开启状态则抛出异常&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new DegradeException(cb.getRule().getLimitApp(), cb.getRule());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1707" y="2813" width="480" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-82" target="oH3m3E_vox9M-4LETuuR-84">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-82" target="oH3m3E_vox9M-4LETuuR-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-82" value="判断熔断器是否开启在exit方法中com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot#exit" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-82" value="判断熔断器是否开启在exit方法中com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot#exit" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1712" y="3110" width="468" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-84" target="oH3m3E_vox9M-4LETuuR-86">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-84" target="oH3m3E_vox9M-4LETuuR-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-84" value="1.如果当前其他的slot已经有了BlockException 就直接跳过&lt;br&gt;2.通过资源名获取熔断器列表 如果熔断器为null 或空集合也是直接跳过&lt;br&gt;3.if (curEntry.getBlockError() == null) {&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // passed request&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (CircuitBreaker circuitBreaker : circuitBreakers) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; circuitBreaker.onRequestComplete(context);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-84" value="1.如果当前其他的slot已经有了BlockException 就直接跳过&lt;br&gt;2.通过资源名获取熔断器列表 如果熔断器为null 或空集合也是直接跳过&lt;br&gt;3.if (curEntry.getBlockError() == null) {&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // passed request&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (CircuitBreaker circuitBreaker : circuitBreakers) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; circuitBreaker.onRequestComplete(context);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1730" y="3360" width="430" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-86" target="oH3m3E_vox9M-4LETuuR-90">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-86" target="oH3m3E_vox9M-4LETuuR-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-86" value="&amp;nbsp;circuitBreaker.onRequestComplete" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-86" value="&amp;nbsp;circuitBreaker.onRequestComplete" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1740" y="3590" width="410" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-89" value="com.alibaba.csp.sentinel.slots.block.degrade.circuitbreaker.CircuitBreaker&lt;br&gt;将三种熔断策（慢调用比例/异常比例/异常数）略进行封装为2种熔断器&lt;br&gt;响应时间熔断器和异常熔断器&lt;br&gt;熔断器三种状态 &lt;font color=&quot;#ff0000&quot;&gt;OPEN、HALF_OPEN、CLOSED&lt;br&gt;熔断时长结束 会改为半开启状态 如果满足规则就关闭熔断器 否则继续熔断&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-89" value="com.alibaba.csp.sentinel.slots.block.degrade.circuitbreaker.CircuitBreaker&lt;br&gt;将三种熔断策（慢调用比例/异常比例/异常数）略进行封装为2种熔断器&lt;br&gt;响应时间熔断器和异常熔断器&lt;br&gt;熔断器三种状态 &lt;font color=&quot;#ff0000&quot;&gt;OPEN、HALF_OPEN、CLOSED&lt;br&gt;熔断时长结束 会改为半开启状态 如果满足规则就关闭熔断器 否则继续熔断&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="2320" y="3550" width="550" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-90" value="&lt;div&gt;Throwable error = entry.getError();&lt;/div&gt;&lt;div&gt;//异常时间窗口计数器&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SimpleErrorCounter counter = stat.currentWindow().value();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (error != null) {&lt;/div&gt;&lt;div&gt;//有异常 异常数+1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; counter.getErrorCount().add(1);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;//总异常数+1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; counter.getTotalCount().add(1);&lt;/div&gt;&lt;div&gt;handleStateChangeWhenThresholdExceeded(error){&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.如果熔断器开启就直接返回&lt;/div&gt;&lt;div&gt;2.如果&lt;/div&gt;&lt;div&gt;熔断器是半开启且error==null 则关闭熔断器 否则打开熔断器&lt;/div&gt;&lt;div&gt;&lt;div&gt;if (currentState.get() == State.HALF_OPEN) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // In detecting request&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (error == null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fromHalfOpenToClose();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fromHalfOpenToOpen(1.0d);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.最后根据&lt;/div&gt;&lt;div&gt;}异常比例和异常数调整熔断器打开还是关闭&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;List&amp;lt;SimpleErrorCounter&amp;gt; counters = stat.values();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long errCount = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long totalCount = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (SimpleErrorCounter counter : counters) {&lt;/div&gt;&lt;div&gt;//异常数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; errCount += counter.errorCount.sum();&lt;/div&gt;&lt;div&gt;//总异常数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; totalCount += counter.totalCount.sum();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (totalCount &amp;lt; minRequestAmount) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; double curCount = errCount;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (strategy == DEGRADE_GRADE_EXCEPTION_RATIO) {//如果是慢调用比例策略 计算比例是否达到阈值&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Use errorRatio&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; curCount = errCount * 1.0d / totalCount;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (curCount &amp;gt; threshold) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; transformToOpen(curCount);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-90" value="&lt;div&gt;Throwable error = entry.getError();&lt;/div&gt;&lt;div&gt;//异常时间窗口计数器&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SimpleErrorCounter counter = stat.currentWindow().value();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (error != null) {&lt;/div&gt;&lt;div&gt;//有异常 异常数+1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; counter.getErrorCount().add(1);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;//总异常数+1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; counter.getTotalCount().add(1);&lt;/div&gt;&lt;div&gt;handleStateChangeWhenThresholdExceeded(error){&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.如果熔断器开启就直接返回&lt;/div&gt;&lt;div&gt;2.如果&lt;/div&gt;&lt;div&gt;熔断器是半开启且error==null 则关闭熔断器 否则打开熔断器&lt;/div&gt;&lt;div&gt;&lt;div&gt;if (currentState.get() == State.HALF_OPEN) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // In detecting request&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (error == null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fromHalfOpenToClose();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fromHalfOpenToOpen(1.0d);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.最后根据&lt;/div&gt;&lt;div&gt;}异常比例和异常数调整熔断器打开还是关闭&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;List&amp;lt;SimpleErrorCounter&amp;gt; counters = stat.values();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long errCount = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long totalCount = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (SimpleErrorCounter counter : counters) {&lt;/div&gt;&lt;div&gt;//异常数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; errCount += counter.errorCount.sum();&lt;/div&gt;&lt;div&gt;//总异常数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; totalCount += counter.totalCount.sum();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (totalCount &amp;lt; minRequestAmount) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; double curCount = errCount;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (strategy == DEGRADE_GRADE_EXCEPTION_RATIO) {//如果是慢调用比例策略 计算比例是否达到阈值&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Use errorRatio&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; curCount = errCount * 1.0d / totalCount;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (curCount &amp;gt; threshold) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; transformToOpen(curCount);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1745.5" y="3750" width="399" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-92" target="oH3m3E_vox9M-4LETuuR-94">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF0000;" parent="1" source="oH3m3E_vox9M-4LETuuR-92" target="oH3m3E_vox9M-4LETuuR-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-92" value="&lt;h1&gt;滑动时间窗口算法源码&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-92" value="&lt;h1&gt;滑动时间窗口算法源码&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1430" y="1500" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-94" target="oH3m3E_vox9M-4LETuuR-96">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-94" target="oH3m3E_vox9M-4LETuuR-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-94" value="addPassRequest（1）{&lt;br&gt;&lt;div&gt;super.addPassRequest(count);&lt;/div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.clusterNode.addPassRequest(count);}" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-94" value="addPassRequest（1）{&lt;br&gt;&lt;div&gt;super.addPassRequest(count);&lt;/div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.clusterNode.addPassRequest(count);}" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1430" y="1670" width="330" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-96" target="oH3m3E_vox9M-4LETuuR-98">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-96" target="oH3m3E_vox9M-4LETuuR-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-96" value="&lt;font color=&quot;#000000&quot;&gt;addPassRequest&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-96" value="&lt;font color=&quot;#000000&quot;&gt;addPassRequest&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1880" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-98" target="oH3m3E_vox9M-4LETuuR-100">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-98" target="oH3m3E_vox9M-4LETuuR-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-98" value="com.alibaba.csp.sentinel.slots.statistic.metric.ArrayMetric#addPass&lt;br&gt;&lt;div&gt;//获取当前时间点所在的样本窗口&lt;/div&gt;&lt;div&gt;&amp;nbsp;WindowWrap&amp;lt;MetricBucket&amp;gt; wrap = data.currentWindow();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; wrap.value().addPass(count);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-98" value="com.alibaba.csp.sentinel.slots.statistic.metric.ArrayMetric#addPass&lt;br&gt;&lt;div&gt;//获取当前时间点所在的样本窗口&lt;/div&gt;&lt;div&gt;&amp;nbsp;WindowWrap&amp;lt;MetricBucket&amp;gt; wrap = data.currentWindow();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; wrap.value().addPass(count);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="2080" y="1670" width="440" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="oH3m3E_vox9M-4LETuuR-100" target="oH3m3E_vox9M-4LETuuR-102">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="oH3m3E_vox9M-4LETuuR-100" target="oH3m3E_vox9M-4LETuuR-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-100" value="com.alibaba.csp.sentinel.slots.statistic.base.LeapArray#currentWindow()&lt;br&gt;LeapArray是一个环形数组" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-100" value="com.alibaba.csp.sentinel.slots.statistic.base.LeapArray#currentWindow()&lt;br&gt;LeapArray是一个环形数组" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="2760" y="1720" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-102" value="&lt;div&gt;//用当前请求时间计算出当前请求对应样本窗口所在位置&lt;/div&gt;&lt;div&gt;&amp;nbsp;int idx = calculateTimeIdx(timeMillis);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Calculate current bucket start time.计算当前样本窗口的开始时间 方便后续统计 该样本窗口内的数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long windowStart = calculateWindowStart(timeMillis);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-102" value="&lt;div&gt;//用当前请求时间计算出当前请求对应样本窗口所在位置&lt;/div&gt;&lt;div&gt;&amp;nbsp;int idx = calculateTimeIdx(timeMillis);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Calculate current bucket start time.计算当前样本窗口的开始时间 方便后续统计 该样本窗口内的数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long windowStart = calculateWindowStart(timeMillis);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="2760" y="1820" width="460" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-105" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-105" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2760" y="1550" as="sourcePoint" />
             <mxPoint x="3330" y="1550" as="targetPoint" />
@@ -447,22 +438,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-107" value="25" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-107" value="25" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2790" y="1550" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-108" value="0" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-108" value="0" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2710" y="1550" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-109" value="50" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-109" value="50" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2860" y="1550" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-110" value="75" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-110" value="75" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2995" y="1550" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-111" value="100" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-111" value="100" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3070" y="1550" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-119" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-119" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2859" y="1560" as="sourcePoint" />
             <mxPoint x="2859" y="1530" as="targetPoint" />
@@ -471,38 +462,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-120" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-120" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2974" y="1560" as="sourcePoint" />
             <mxPoint x="2974" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-121" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-121" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3100" y="1560" as="sourcePoint" />
             <mxPoint x="3100" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-122" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-122" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3219" y="1560" as="sourcePoint" />
             <mxPoint x="3219" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-123" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-123" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3150" y="1450" as="sourcePoint" />
             <mxPoint x="3150" y="1540" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-124" value="req" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-124" value="req" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3120" y="1440" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-125" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontSize=14;fontColor=#000000;rotation=90;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-125" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontSize=14;fontColor=#000000;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="3115" y="1495" width="20" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oH3m3E_vox9M-4LETuuR-126" value="total count" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oH3m3E_vox9M-4LETuuR-126" value="total count" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3060" y="1480" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
